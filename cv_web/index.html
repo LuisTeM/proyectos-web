@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Luis Alberto Tellez Mendez - Curriculum</title>
+</head>
+<body>
+    <header>
+        <h1>Luis Alberto Tellez Mendez</h1>
+        <p>Desarrollador Web en proceso</p>
+        <button id="toggle-mode">Modo oscuro</button>
+    </header>
+
+    <section id="Aboutme">
+        <h2>Sobre mi</h2>
+        <p>Soy una persona interesada en el desarrollo web front-end. Mi principal objetivo es el crecimiento personal y profesional mientras aplico y fortalezco mis conocimientos en programación.</p>
+    </section>
+
+    <section id="Abilities">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML y CSS basico</li>
+            <li>Javascript basico</li>
+            <li>Inglés intermedio</li>
+            <li>Compromiso con el aprendizaje continuo</li>
+        </ul>
+    </section>
+
+    <section id="Education">
+        <h2>Educación</h2>
+        <ul>
+            <li>Ingeniería en Sistemas Computacionales - Tecnológico de Estudios Superiores de Jocotitlán</li>
+            <li>Técnico en Procesos de Gestión Administrativa - CECyTEM Plantel Jocotitlán</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> albertodx051598@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 712-3132225</p>
+            <p><i class="fab fa-github"></i><a href="https://github.com/LuisTeM/proyectos-web" target="_blank"> github.com/LuisTeM/proyectos-web</a></p>
+        </div>
+    </section>
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-mode');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
